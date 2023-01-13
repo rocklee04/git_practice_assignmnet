@@ -9,5 +9,5 @@ let flag = false;
             
         }
     }
-    (!flag) ?console.log("Yes"):console.log("No");
+    (!flag) ?console.log("Yes"):console.log("No"); 
     
