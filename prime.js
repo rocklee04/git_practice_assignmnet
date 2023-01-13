@@ -8,4 +8,6 @@ let count = 0;
             
         }
     }
+
     (count == 2) ? console.log("Yes"):console.log("No"); 
+
