@@ -1,13 +1,11 @@
-let num = 43;
-let flag = false;
+let num = 32;
+let count = 0;
 
-    for(i = 2; i <= num/2; i++) {
+    for(i = 1; i <= num; i++) {
         if(num % i == 0) {
             
-            flag = true;
-            break;
+            count++;
             
         }
     }
-    (!flag) ?console.log("Yes"):console.log("No");
-    
+    (count == 2) ? console.log("Yes"):console.log("No"); 
