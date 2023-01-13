@@ -8,9 +8,6 @@ let count = 0;
             
         }
     }
-<<<<<<< HEAD
-    (!flag) ?console.log("Yes"):console.log("No"); 
-    
-=======
+
     (count == 2) ? console.log("Yes"):console.log("No"); 
->>>>>>> efe9532193283c3908029f7a8b3bbbb15e67cef2
+
